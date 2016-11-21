@@ -1,0 +1,28 @@
+header{
+  position: relative;
+  border: 1px solid transparent;
+
+  h1{
+    color: #ffffff;
+    text-align: center;
+    font-weight: 300;
+    font-size: 2.6rem;
+    margin: 2rem auto;
+    background-color:#f1c40f;
+    position: relative;
+    z-index: 2;
+    width: 5em;
+  }
+
+  &::before {
+      content: '';
+      border: 1px solid  #FFFFFF;
+      border-width: 0 0 1px 0;
+      position: absolute;
+      top: 3.3rem;
+      left: 0;
+      right: 0;
+      margin-top: 0;
+      z-index: 1;
+    }
+}

@@ -1,0 +1,11 @@
+ @import url("https://fonts.googleapis.com/css?family=Lato" rel="stylesheet");
+ @import 'themes-bs';
+ @import 'common-bs';
+ @import 'main-bs';
+ @import 'header-bs';
+
+ @media screen and (max-width: 320px) {
+   .container-fluid{
+     width: 300px;
+  }
+}

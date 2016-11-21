@@ -1,0 +1,30 @@
+.container-fluid{
+  margin: 0 auto;
+  width: 90%;
+    .skills {
+      background: white;
+      text-align: center;
+      box-sizing: border-box;
+      border: 15px solid #F1C40F;
+      border-radius: 23px;
+      padding: 1%;
+      transition: width 0.2s;
+      .image-holder{
+        margin: 15% auto;
+        width:100%;
+        height: 5em;
+        line-height: 5em;
+        img{
+          margin: 0 auto;
+          width:5em;
+        }
+      }
+      .name{
+        font-size: 1.2em;
+        font-weight: 300;
+      }
+      .discription{
+        font-size: 1em;
+      }
+    }
+  }
