@@ -6,31 +6,28 @@ body {
   background: #F1C40F;
   font-family: lato; }
 
-.container-fluid {
-  margin: 0 auto;
-  width: 90%; }
-  .container-fluid .skills {
-    background: white;
-    text-align: center;
-    box-sizing: border-box;
-    border: 15px solid #F1C40F;
-    border-radius: 23px;
-    padding: 1%;
-    transition: width 0.2s; }
-    .container-fluid .skills .image-holder {
-      margin: 15% auto;
-      width: 100%;
-      height: 5em;
-      line-height: 5em; }
-      .container-fluid .skills .image-holder img {
-        margin: 0 auto;
-        width: 5em; }
-    .container-fluid .skills .name {
-      font-size: 1.2em;
-      font-weight: 300; }
-    .container-fluid .skills .discription {
-      font-size: 1em;
-      height: 5em; }
+.skills {
+  background: white;
+  text-align: center;
+  box-sizing: border-box;
+  border: 15px solid #F1C40F;
+  border-radius: 19px;
+  padding: 0.5%;
+  transition: width 0.2s;
+  height: 20em; }
+  .skills .image-holder {
+    margin: 12% auto;
+    height: 5em;
+    line-height: 5em; }
+    .skills .image-holder img {
+      width: 25%; }
+  .skills .name {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1em; }
+  .skills .discription {
+    font-size: 1.2rem;
+    height: 5em; }
 
 header {
   position: relative;
