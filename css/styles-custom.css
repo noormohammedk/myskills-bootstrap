@@ -16,18 +16,19 @@ body {
   transition: width 0.2s;
   height: 20em; }
   .skills .image-holder {
-    margin: 12% auto;
     height: 5em;
-    line-height: 5em; }
+    line-height: 5em;
+    margin-top: 2em; }
     .skills .image-holder img {
-      width: 25%; }
+      width: 23%; }
   .skills .name {
     font-size: 2rem;
     font-weight: 300;
-    line-height: 1em; }
+    line-height: 1em;
+    margin-top: 2em; }
   .skills .discription {
     font-size: 1.2rem;
-    height: 5em; }
+    height: 10em; }
 
 header {
   position: relative;
