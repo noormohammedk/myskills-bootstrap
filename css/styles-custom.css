@@ -25,10 +25,10 @@ body {
     font-weight: 300;
     height: 2em;
     line-height: 1em;
-    margin: 2em auto 0 auto; }
+    margin: 2em auto 0.5em auto; }
   .skills .discription {
     font-size: 1.2rem;
-    height: 4em; }
+    height: 5em; }
 
 header {
   position: relative;
