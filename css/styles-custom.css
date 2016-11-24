@@ -27,8 +27,7 @@ body {
     line-height: 1em;
     margin-top: 2em; }
   .skills .discription {
-    font-size: 1.2rem;
-    height: 10em; }
+    font-size: 1.2rem; }
 
 header {
   position: relative;
@@ -55,7 +54,7 @@ header {
     z-index: 1; }
 
 @media screen and (max-width: 320px) {
-  .container-fluid {
+  .container {
     width: 300px; } }
 
 /*# sourceMappingURL=styles-custom.css.map */
