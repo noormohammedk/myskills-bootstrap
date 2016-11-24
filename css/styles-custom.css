@@ -24,10 +24,12 @@ body {
   .skills .name {
     font-size: 2rem;
     font-weight: 300;
+    height: 2em;
     line-height: 1em;
     margin-top: 2em; }
   .skills .discription {
-    font-size: 1.2rem; }
+    font-size: 1.2rem;
+    height: 3em; }
 
 header {
   position: relative;
@@ -52,9 +54,5 @@ header {
     right: 0;
     margin-top: 0;
     z-index: 1; }
-
-@media screen and (max-width: 320px) {
-  .container {
-    width: 300px; } }
 
 /*# sourceMappingURL=styles-custom.css.map */
