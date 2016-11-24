@@ -13,8 +13,7 @@ body {
   border: 15px solid #F1C40F;
   border-radius: 19px;
   padding: 0.5%;
-  transition: width 0.2s;
-  height: 20em; }
+  transition: width 0.2s; }
   .skills .image-holder {
     height: 5em;
     line-height: 5em;
@@ -29,7 +28,7 @@ body {
     margin-top: 2em; }
   .skills .discription {
     font-size: 1.2rem;
-    height: 3em; }
+    height: 2em; }
 
 header {
   position: relative;
